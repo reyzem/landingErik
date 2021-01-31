@@ -1,0 +1,63 @@
+body {
+  
+  background-color:  #d3e0ea;
+}
+
+header div.hero {
+  background-image: url("../imgs/reys.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  text-shadow: 1px 1px rgb(255, 253, 253);
+  background-size: cover;
+  min-height: 50vh;
+  
+  text-align:center;
+
+}
+header div.hero div{
+   min-height: 50vh;
+}
+.title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:2rem;
+  text-shadow: 1px 1px rgb(220, 218, 230);
+}
+
+.card img{
+  width:100%;
+}
+
+form {
+  font-size:1rem !important;
+}
+@media (min-width: 768px) {
+        header div.hero {
+            background-image: url("../imgs/reym.jpg");
+            min-height: 80vh;
+        }
+
+
+        form{
+          font-size:2rem !important;
+        }
+        .title{
+          font-size:6rem;
+          text-shadow: 3px 3px 3px rgb(124, 125, 223);
+          background-color: rgba(255,255,255,0.3);
+          padding:0.7em;
+          width:100%;
+          
+        }
+      }
+
+@media (min-width: 992px) {
+        header div.hero {
+            background-image: url("../imgs/reyl.jpg");
+        }
+         .title{
+          max-width:1024px;
+          margin:1em auto;
+          
+        }
+      }
+
